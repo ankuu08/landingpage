@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.header{
+    height: 90px;
+    background-color: #ffc300;
+    color: #003566;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    /* font-family: "Comic Sans MS", cursive, sans-serif */
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-variant:small-caps;
+    text-align: center;
+}
+.dog{
+    height: 95px;
+    width: 120px;
+    background-image: url(AdobeStock_574104298_Preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.human{
+    margin-top:1.5rem ;
+    height: 100px;
+    width: 150px;
+    background-image: url(AdobeStock_565465780_Preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0.5rem;
+}
+.subheader{
+    height: 40px;
+    background-color: #003566;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#home{
+    font-size: 0.75rem;
+    color: azure;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 5px;
+}
+#contact{
+    font-size: 0.75rem;
+    color: azure;
+    text-decoration: none;
+    /* margin: 1rem; */
+    padding: 5px;
+}
+.contant{
+    height: 60vmin;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+#hey{
+    height: 35vmin;
+    width: 55vmin;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    border: 0.35rem solid #ffd60a;
+    color: #001d3d;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-variant:small-caps;
+    text-align: center;
+}
+#hey h2{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+#hey button{
+    height: 3rem;
+    width: 5rem;
+    background-color: #ffc300;
+    color: #003566;
+    border-radius: 0.5rem;
+    border-style: none;
+    font-size: 1rem;
+    /* font-family: "Comic Sans MS", cursive, sans-serif;
+    font-variant:small-caps;
+    text-align: center; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;;
+}
+.hum:hover{
+    border: 1px solid white;
+    border-radius: 1px;
+}
+.info{
+    height: 90px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-variant:small-caps;
+    text-align: center;
+    color: #001d3d;
+}
+.organisation{
+    height: 40vmin;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aqua; */
+    gap: 5%;
+}
+.hello{
+    width: 20%;
+    height: 70%;
+    background-color: lightcyan;
+    border: 0.35rem solid #001d3d;
+    border-radius: 1rem;
+}
+.o1{
+    height: 60%;
+    width: 60%;
+    background-image: url(WTI_Logo_3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: green;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    /* border-radius: 0.55rem; */
+}
+.a1{
+    font-size: 1.2rem;
+    margin-left: 6.2rem;
+    text-decoration: none;
+    color: #001d3d;
+}
+.o2{
+    height: 60%;
+    width: 60%;
+    background-image: url(logo2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    /* border-radius: 0.55rem; */
+}
+.a2{
+    font-size: 1.2rem;
+    margin-left: 6.2rem;
+    text-decoration: none;
+    color: #001d3d;
+}
+.o3{
+    height: 50%;
+    width: 80%;
+    background-image: url(logo-hindi.png);
+    background-size: contain;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    border-radius: 0.55rem;
+    background-repeat: no-repeat;
+} 
+.a3{
+    font-size: 1.2rem;
+    margin-left: 6.2rem;
+    text-decoration: none;
+    color: #001d3d;
+}
+.foot{
+    height: 30px;
+    /* position: fixed;
+    bottom: 0; */
+    background-color: #003566;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot p{
+    color: ghostwhite;
+    font-size: 0.65rem;
+}
+#k{
+    color: #003566;  
+    font-size: 1rem;
+    text-decoration: none; 
+}
